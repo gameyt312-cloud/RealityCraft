@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "realitycraft",
+  "version": "${version}",
+  "name": "RealityCraft",
+  "description": "A realistic rendering and world transformation framework for Minecraft.",
+  "authors": ["gameyt312-cloud"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.realitycraft.RealityCraft"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
